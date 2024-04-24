@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A4B217E2BD8B099009F3B1E /* NumberPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4B217D2BD8B099009F3B1E /* NumberPad.swift */; };
+		2A4B21802BD8B1FB009F3B1E /* PasscodeIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4B217F2BD8B1FB009F3B1E /* PasscodeIndicatorView.swift */; };
+		2A4B21822BD8B29D009F3B1E /* LockScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4B21812BD8B29D009F3B1E /* LockScreen.swift */; };
+		2A4B21842BD8B2CD009F3B1E /* LockScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4B21832BD8B2CD009F3B1E /* LockScreenViewModel.swift */; };
+		2A4B21862BD8B631009F3B1E /* Authenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4B21852BD8B631009F3B1E /* Authenticator.swift */; };
+		2A4B218A2BD8C598009F3B1E /* Taks+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4B21892BD8C598009F3B1E /* Taks+Extension.swift */; };
+		2A4B218C2BD8CD49009F3B1E /* LAContext+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4B218B2BD8CD48009F3B1E /* LAContext+Extension.swift */; };
+		2AC8DFD02BD7C23600443236 /* AESEncryptionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC8DFCF2BD7C23600443236 /* AESEncryptionManager.swift */; };
+		2AC8DFD22BD7C84800443236 /* download.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AC8DFD12BD7C84800443236 /* download.png */; };
 		2AF71BEC2BD761CF00EBC607 /* SafeLockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF71BEB2BD761CF00EBC607 /* SafeLockApp.swift */; };
 		2AF71BEE2BD761CF00EBC607 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF71BED2BD761CF00EBC607 /* ContentView.swift */; };
 		2AF71BF02BD761D100EBC607 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AF71BEF2BD761D100EBC607 /* Assets.xcassets */; };
@@ -34,6 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A4B217D2BD8B099009F3B1E /* NumberPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPad.swift; sourceTree = "<group>"; };
+		2A4B217F2BD8B1FB009F3B1E /* PasscodeIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeIndicatorView.swift; sourceTree = "<group>"; };
+		2A4B21812BD8B29D009F3B1E /* LockScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreen.swift; sourceTree = "<group>"; };
+		2A4B21832BD8B2CD009F3B1E /* LockScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreenViewModel.swift; sourceTree = "<group>"; };
+		2A4B21852BD8B631009F3B1E /* Authenticator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authenticator.swift; sourceTree = "<group>"; };
+		2A4B21892BD8C598009F3B1E /* Taks+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Taks+Extension.swift"; sourceTree = "<group>"; };
+		2A4B218B2BD8CD48009F3B1E /* LAContext+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LAContext+Extension.swift"; sourceTree = "<group>"; };
+		2AC8DFCF2BD7C23600443236 /* AESEncryptionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AESEncryptionManager.swift; sourceTree = "<group>"; };
+		2AC8DFD12BD7C84800443236 /* download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = download.png; sourceTree = "<group>"; };
 		2AF71BE82BD761CF00EBC607 /* SafeLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AF71BEB2BD761CF00EBC607 /* SafeLockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeLockApp.swift; sourceTree = "<group>"; };
 		2AF71BED2BD761CF00EBC607 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +90,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A4B21872BD8B737009F3B1E /* LockScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2A4B217D2BD8B099009F3B1E /* NumberPad.swift */,
+				2A4B217F2BD8B1FB009F3B1E /* PasscodeIndicatorView.swift */,
+				2A4B21832BD8B2CD009F3B1E /* LockScreenViewModel.swift */,
+				2A4B21812BD8B29D009F3B1E /* LockScreen.swift */,
+			);
+			path = LockScreen;
+			sourceTree = "<group>";
+		};
+		2A4B21882BD8C583009F3B1E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2A4B21892BD8C598009F3B1E /* Taks+Extension.swift */,
+				2A4B218B2BD8CD48009F3B1E /* LAContext+Extension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2AC8DFCC2BD7C1F600443236 /* EncryptionManager */ = {
+			isa = PBXGroup;
+			children = (
+				2AC8DFCF2BD7C23600443236 /* AESEncryptionManager.swift */,
+			);
+			path = EncryptionManager;
+			sourceTree = "<group>";
+		};
+		2AC8DFCD2BD7C20A00443236 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2A4B21852BD8B631009F3B1E /* Authenticator.swift */,
+				2AC8DFCC2BD7C1F600443236 /* EncryptionManager */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2AC8DFCE2BD7C21100443236 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2AF71BEB2BD761CF00EBC607 /* SafeLockApp.swift */,
+				2AF71BED2BD761CF00EBC607 /* ContentView.swift */,
+				2A4B21872BD8B737009F3B1E /* LockScreen */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		2AF71BDF2BD761CF00EBC607 = {
 			isa = PBXGroup;
 			children = (
@@ -95,9 +160,11 @@
 		2AF71BEA2BD761CF00EBC607 /* SafeLock */ = {
 			isa = PBXGroup;
 			children = (
-				2AF71BEB2BD761CF00EBC607 /* SafeLockApp.swift */,
-				2AF71BED2BD761CF00EBC607 /* ContentView.swift */,
+				2AC8DFCE2BD7C21100443236 /* UI */,
+				2AC8DFCD2BD7C20A00443236 /* Data */,
+				2A4B21882BD8C583009F3B1E /* Utils */,
 				2AF71BEF2BD761D100EBC607 /* Assets.xcassets */,
+				2AC8DFD12BD7C84800443236 /* download.png */,
 				2AF71BF12BD761D100EBC607 /* SafeLock.entitlements */,
 				2AF71BF22BD761D100EBC607 /* Preview Content */,
 			);
@@ -235,6 +302,7 @@
 			files = (
 				2AF71BF42BD761D100EBC607 /* Preview Assets.xcassets in Resources */,
 				2AF71BF02BD761D100EBC607 /* Assets.xcassets in Resources */,
+				2AC8DFD22BD7C84800443236 /* download.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +327,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A4B21842BD8B2CD009F3B1E /* LockScreenViewModel.swift in Sources */,
+				2A4B217E2BD8B099009F3B1E /* NumberPad.swift in Sources */,
 				2AF71BEE2BD761CF00EBC607 /* ContentView.swift in Sources */,
+				2A4B21802BD8B1FB009F3B1E /* PasscodeIndicatorView.swift in Sources */,
 				2AF71BEC2BD761CF00EBC607 /* SafeLockApp.swift in Sources */,
+				2A4B218A2BD8C598009F3B1E /* Taks+Extension.swift in Sources */,
+				2A4B21862BD8B631009F3B1E /* Authenticator.swift in Sources */,
+				2A4B21822BD8B29D009F3B1E /* LockScreen.swift in Sources */,
+				2AC8DFD02BD7C23600443236 /* AESEncryptionManager.swift in Sources */,
+				2A4B218C2BD8CD49009F3B1E /* LAContext+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +500,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Please allow us to unlock app with FaceID";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -442,10 +519,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.dk.SafeLock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -462,6 +540,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Please allow us to unlock app with FaceID";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -480,10 +559,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.dk.SafeLock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -11,7 +11,7 @@ import SwiftUI
 struct SafeLockApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(authenticator: .init())
         }
     }
 }
