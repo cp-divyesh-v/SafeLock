@@ -7,4 +7,6 @@ Fore more Detail i have written an Article on it, in which i have done detailed 
 
 Screen shots
 
-![Simulator Screenshot - iPhone 15 Pro Max - 2024-04-24 at 16 46 28](https://github.com/cp-divyesh-v/SafeLock/assets/83937721/b19af79f-bf99-46de-bfc3-153087c0b40e)![Simulator Screenshot - iPhone 15 Pro Max - 2024-04-24 at 16 46 07](https://github.com/cp-divyesh-v/SafeLock/assets/83937721/fe8ef7cc-61b5-416d-9fa2-e129523aec5e)
+
+![Simulator Screenshot - iPhone 15 Pro Max - 2024-04-24 at 16 46 28](https://github.com/cp-divyesh-v/SafeLock/assets/83937721/4b3c318f-4066-4459-bb71-b6e4670aae99)
+![Simulator Screenshot - iPhone 15 Pro Max - 2024-04-24 at 16 46 07](https://github.com/cp-divyesh-v/SafeLock/assets/83937721/4422807a-e289-475f-8184-5ac148c24e49)
